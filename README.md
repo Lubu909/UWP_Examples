@@ -7,4 +7,5 @@ It is based on the Microsoft Virtual Academy course: [A Developer's Guide to Win
 ##See also samples
 * [Windows-universal-samples](https://github.com/Microsoft/Windows-universal-samples)
 * [WinDevCamp](https://github.com/Windows-Readiness/WinDevCamp)
+* [Shen Chauhan blog repo](https://github.com/shenchauhan/blog)
 
