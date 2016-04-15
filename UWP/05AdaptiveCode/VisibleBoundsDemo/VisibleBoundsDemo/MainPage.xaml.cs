@@ -38,6 +38,7 @@ namespace VisibleBoundsDemo
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             ReportVisibleBounds();
+            // var i = Windows.UI.ViewManagement.StatusBar.GetForCurrentView().HideAsync();
         }
 
         private void ReportVisibleBounds()
