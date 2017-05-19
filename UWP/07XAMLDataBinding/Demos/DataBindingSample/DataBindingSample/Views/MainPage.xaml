@@ -27,7 +27,7 @@
         </ListView>
 
         <ListView Header="Compiled" ItemsSource="{x:Bind ViewModel.Items}" Grid.Column="1"
-                  xmlns:m="using:DataBindingSample.Models" >
+                  xmlns:m="using:DataBindingSample.Models" Margin="10,-376,-10,376" >
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="m:TodoItem">
                     <TextBlock Text="{x:Bind Title}"/>

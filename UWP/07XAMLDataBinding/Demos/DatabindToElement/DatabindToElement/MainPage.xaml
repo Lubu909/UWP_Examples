@@ -18,7 +18,7 @@
                 </Rectangle.RenderTransform>
             </Rectangle>
 
-            <Slider Minimum="0.5" Maximum="2.0" StepFrequency="0.1" x:Name="MySlider"/>
+            <Slider Minimum="0.1" Maximum="2.0" StepFrequency="0.01" x:Name="MySlider"/>
             
         </StackPanel>
 

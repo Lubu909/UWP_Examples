@@ -95,15 +95,12 @@ namespace LifecycleDemo
             // Every time the Frame navigates, set the visibility of the Shell-drawn back button 
             // appropriate to whether there is anywhere to go back to
             // COMMENT this out to see the on-canvas smart Back Button on desktop
-            rootFrame.Navigated += (s, a) =>
-            {
-                if (rootFrame.CanGoBack)
-                {
+            rootFrame.Navigated += (s, a) => {
+                if (rootFrame.CanGoBack) {
                     // Setting this visible is ignored on Mobile and when in tablet mode!     
                     SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
                 }
-                else
-                {
+                else {
                     SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
                 }
             };

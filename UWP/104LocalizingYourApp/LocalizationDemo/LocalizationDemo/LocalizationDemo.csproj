@@ -97,6 +97,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="project.json" />
+    <PRIResource Include="Strings\pl-PL\Resources.resw" />
+    <PRIResource Include="Strings\zh-Hans\Resources.resw" />
     <PRIResource Include="Strings\ru-RU\Resources.resw" />
     <PRIResource Include="Strings\de-DE\Resources.resw" />
     <PRIResource Include="Strings\en-US\Resources.resw" />
@@ -139,7 +141,9 @@
   <ItemGroup />
   <ItemGroup>
     <XliffResource Include="MultilingualResources\LocalizationDemo.de-DE.xlf" />
+    <XliffResource Include="MultilingualResources\LocalizationDemo.pl-PL.xlf" />
     <XliffResource Include="MultilingualResources\LocalizationDemo.ru-RU.xlf" />
+    <XliffResource Include="MultilingualResources\LocalizationDemo.zh-Hans.xlf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
